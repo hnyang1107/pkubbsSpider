@@ -1,6 +1,6 @@
-# pkubbsSpider: 北大未名BBS爬虫（https://bbs.pku.edu.cn）
+# pkubbsSpider: 北大未名BBS爬虫（https://bbs.pku.edu.cn ）
 ## scrapy框架
-- 初始页为区域页（例如：https://bbs.pku.edu.cn/v2/board.php?bid=621）
+- 初始页为区域页（例如：https://bbs.pku.edu.cn/v2/board.php?bid=621 ）
 - 4层参数传递
 - 用Cookies传递实现登陆，需开启COOKIES_ENABLED = True
 - 设置User-Agent池实现反爬虫策略（uamid.py）
