@@ -3,7 +3,7 @@
 - 初始页为区域页（例如：https://bbs.pku.edu.cn/v2/board.php?bid=621）
 - 4层参数传递
 - 用Cookies传递实现登陆，需开启COOKIES_ENABLED = True
-- 设置代理池实现反爬虫（uamid.py）
+- 设置User-Agent池实现反爬虫策略（uamid.py）
 - 下载间隔时间0.25s，DOWNLOAD_DELAY = 0.25
 - 抓取内容 
 ``` python
