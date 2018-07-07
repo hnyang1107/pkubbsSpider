@@ -21,8 +21,8 @@ class PkubbsSpider(scrapy.Spider):
     # 重写了start_requests方法,传递Cookies
     def start_requests(self):
         home_url = self.start_url
-        login_cookie={'uid':'23740',
-                      'skey':'2089b57e8c6a8d46'
+        login_cookie={'uid':'****',
+                      'skey':'*******' # 在此输入Cookies
                       }
         yield FormRequest(
             url=home_url,cookies=login_cookie,callback=self.parse)
