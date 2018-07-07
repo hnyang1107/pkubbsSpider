@@ -1,4 +1,4 @@
-# pkubbsSpider: 北大未名BBS爬虫（https://bbs.pku.edu.cn/v2/）
+# pkubbsSpider: 北大未名BBS爬虫（https://bbs.pku.edu.cn）
 ## scrapy框架
 - 初始页为区域页（例如：https://bbs.pku.edu.cn/v2/board.php?bid=621）
 - 4层参数传递
